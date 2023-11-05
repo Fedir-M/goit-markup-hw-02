@@ -1,0 +1,136 @@
+:root {
+    --primary-text-color: #2E2F42;
+    --second-text-color: #434455;
+    --white-text-color: #FFFFFF;
+
+    --primary-background-color: #FFFFFF;
+    --second-background-color: ;
+
+    --button-main-color:
+    --button-secondary-color:
+}
+
+body {
+    background-color: #FFFFFFF;
+    color: #2E2F42;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+/* HEADER*/
+
+.main-nav {
+    font-family: Raleway, sans-serif;
+    color: var(--primary-text-color);
+    background-color: var(--primary-background-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.logo {
+    font-family: Roboto, sans-serif;
+    color: #4D5AE5;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.nav-contacts {
+    color: #434455;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* SCREEN 01 = HERO */
+
+.hero-title {
+    text-align: center;
+    color: var(--white-text-color);
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+}
+
+h2 {
+    color: var(--second-text-color);
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    
+}
+
+/* <!-- SCREEN 02 --> */
+.feature-screen-two {
+    list-style-type: none;
+}
+
+
+/* <!-- SCREEN 03 --> */
+
+.pictures {
+    list-style-type: none;
+}
+
+/* <!-- SCREEN 04 --> */
+
+.our-team {
+    list-style-type: none;
+}
+
+/* FOOTER */
+
+.footer text {
+    color:  #F4F4FD;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    text-decoration: none;
+}
+/* color 1st  menu-nav- #2E2F42 */
+
+/* nav- contacrs - #434455 */
+
+/* text color - headers=buttons - #FFF */
+
+/* texts header features - #2E2F42 */
+
+/* text color features - #434455 */
+
+/* logo text web -#4D5AE5  */
