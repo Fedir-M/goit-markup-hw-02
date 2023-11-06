@@ -9,6 +9,7 @@
     --primary-background-color: #FFFFFF;
     --second-background-color: #4D5AE5;
     --pressed-background-color:  #404BBF;
+    --section-two-background-color: #2e2f42;
 
     --button-main-color: #FFFFFF;
     --button-secondary-color: #FFFFFF;
@@ -158,6 +159,11 @@ h3 {
 }
 
 /* <!-- SCREEN 02 --> *//* <!-- SCREEN 02 --> */
+
+.screen-two {
+    background-color: var(-section-two-background-color);
+}
+
 .feature-screen-two {
     list-style-type: none;
 }
