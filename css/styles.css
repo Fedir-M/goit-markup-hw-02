@@ -188,6 +188,7 @@ h2 {
 }
 
 /* FOOTER *//* FOOTER */
+
 .footer {
     font-family: Raleway, sans-serif;
     font-weight: 800;
@@ -195,7 +196,7 @@ h2 {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--footer-logo-color);
+    background-color: var(--section-one-background-color);
 
 }
 
@@ -203,16 +204,16 @@ h2 {
     text-decoration: none;
 }
 
-.footer text {
-    color:  #F4F4FD;
+.footer-text {
+    color: var(--span-logo-color);
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
     text-decoration: none;
 }
 .span-logo-footer {
-    color: var(-span-logo-color);
+    color: var(--span-logo-color);
 }
 
 /* PPRTFOLIO PAGE *//* PPRTFOLIO PAGE *//* PPRTFOLIO PAGE */
