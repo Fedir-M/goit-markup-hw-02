@@ -3,6 +3,8 @@
     --second-text-color: #434455;
     --white-text-color: #FFFFFF;
     --nav-menu-color: #404BBF;
+    --footer-logo-color: #4D5AE5;
+    --span-logo-color: #f4f4fd;
 
     --primary-background-color: #FFFFFF;
     --second-background-color: #4D5AE5;
@@ -32,6 +34,13 @@ body {
     color: var( --white-text-color);
 }
 
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
 .nav-contacts-link,
 .main-nav-link {
     font-weight: 400;
@@ -52,7 +61,7 @@ body {
     list-style-type: none;
 }
 /* class=logo=link */
-.link {
+.logo-link {
     font-family: Raleway, sans-serif;
     color: #4D5AE5;
     font-size: 18px;
@@ -149,14 +158,6 @@ h3 {
 }
 
 /* <!-- SCREEN 02 --> *//* <!-- SCREEN 02 --> */
-
-.text-section-two {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.32px;
-}
-
 .feature-screen-two {
     list-style-type: none;
 }
@@ -175,6 +176,20 @@ h3 {
 }
 
 /* FOOTER *//* FOOTER */
+.footer {
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--footer-logo-color);
+
+}
+
+.logo-link {
+    text-decoration: none;
+}
 
 .footer text {
     color:  #F4F4FD;
@@ -183,6 +198,9 @@ h3 {
     line-height: 1.5;
     letter-spacing: 0.32px;
     text-decoration: none;
+}
+.span-logo-footer {
+    color: var(-span-logo-color);
 }
 
 /* PPRTFOLIO PAGE *//* PPRTFOLIO PAGE *//* PPRTFOLIO PAGE */
