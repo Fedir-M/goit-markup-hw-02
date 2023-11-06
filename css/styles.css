@@ -2,12 +2,14 @@
     --primary-text-color: #2E2F42;
     --second-text-color: #434455;
     --white-text-color: #FFFFFF;
+    --nav-menu-color: #404BBF;
 
     --primary-background-color: #FFFFFF;
-    --second-background-color: ;
+    --second-background-color: #4D5AE5;
+    --pressed-background-color:  #404BBF;
 
-    --button-main-color:
-    --button-secondary-color:
+    --button-main-color: #FFFFFF;
+    --button-secondary-color: #FFFFFF;
 }
 
 body {
@@ -21,6 +23,15 @@ body {
     letter-spacing: 0.32px;
 }
 
+
+.span-logo {
+    color: var(--primary-text-color);
+}
+
+.span-logo-footer {
+    color: var( --white-text-color);
+}
+
 p {
     font-size: 16px;
     font-weight: 400;
@@ -28,7 +39,15 @@ p {
     letter-spacing: 0.32px;
 }
 
-/* HEADER*/
+.nav-contacts-link,
+.main-nav-link {
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    color: var(--second-text-color);
+}
+
+/* HEADER*//* HEADER*//* HEADER*//* HEADER*//* HEADER*/
 
 .main-nav {
     font-family: Raleway, sans-serif;
@@ -37,7 +56,6 @@ p {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    text-decoration: none;
     list-style-type: none;
 }
 
@@ -59,11 +77,20 @@ p {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.32px;
-    text-decoration: none;
     list-style-type: none;
 }
 
-/* SCREEN 01 = HERO */
+.main-nav-link:hover,
+.main-nav-link:focus,
+.nav-contacts-link:hover,
+.nav-contacts-link:focus {
+    color: var(--nav-menu-color);
+   
+}
+
+
+
+/* SCREEN 01 = HERO *//* SCREEN 01 = HERO */
 
 .hero-title {
     text-align: center;
@@ -73,6 +100,27 @@ p {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 1.12px;
+}
+/* HERO BUTTON */
+
+.hero>button {
+    color: var(--white-text-color);
+    letter-spacing: 0.64px;
+    padding: 16px 32px;
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: var(--second-background-color);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.hero>button:hover,
+.hero>button:focus {
+    background: var(--pressed-background-color);
+
 }
 
 h2 {
@@ -95,25 +143,25 @@ h3 {
     
 }
 
-/* <!-- SCREEN 02 --> */
+/* <!-- SCREEN 02 --> *//* <!-- SCREEN 02 --> */
 .feature-screen-two {
     list-style-type: none;
 }
 
 
-/* <!-- SCREEN 03 --> */
+/* <!-- SCREEN 03 --> *//* <!-- SCREEN 03 --> */
 
 .pictures {
     list-style-type: none;
 }
 
-/* <!-- SCREEN 04 --> */
+/* <!-- SCREEN 04 --> *//* <!-- SCREEN 04 --> */
 
 .our-team {
     list-style-type: none;
 }
 
-/* FOOTER */
+/* FOOTER *//* FOOTER */
 
 .footer text {
     color:  #F4F4FD;
@@ -123,14 +171,71 @@ h3 {
     letter-spacing: 0.32px;
     text-decoration: none;
 }
-/* color 1st  menu-nav- #2E2F42 */
 
-/* nav- contacrs - #434455 */
+/* PPRTFOLIO PAGE *//* PPRTFOLIO PAGE *//* PPRTFOLIO PAGE */
+/* PPRTFOLIO PAGE *//* PPRTFOLIO PAGE *//* PPRTFOLIO PAGE */
 
-/* text color - headers=buttons - #FFF */
+.portfolio-page {
+    list-style-type: none;
+}
 
-/* texts header features - #2E2F42 */
+.portfolio-page>a {
+    text-decoration: none;
+}
 
-/* text color features - #434455 */
+.portfolio-content-header {
+    color: var(--primary-text-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    text-align: left;
+}
 
-/* logo text web -#4D5AE5  */
+.portfolio-content-text {
+    color: var(--second-text-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.ul-filter {
+    list-style-type: none;
+}
+
+
+/* BUTTONS *//* BUTTONS *//* BUTTONS *//* BUTTONS */
+
+button {
+    color: #4D5AE5;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 4px;
+    border: 1px solid #E7E9FC;
+    background: #F4F4FD;
+    }
+
+.li-filter>button:hover,
+.li-filter>button:focus {
+    color: #FFFFFF;
+    background-color: var(--second-background-color);
+    border-radius: 8px;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.05) inset; 
+}
+
+.li-filter>button:active {
+    background-color: var(--pressed-background-color);
+}
+    
