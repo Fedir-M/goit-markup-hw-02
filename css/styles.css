@@ -9,7 +9,7 @@
     --primary-background-color: #FFFFFF;
     --second-background-color: #4D5AE5;
     --pressed-background-color:  #404BBF;
-    --section-two-background-color: #2e2f42;
+    --section-one-background-color: #2e2f42;
 
     --button-main-color: #FFFFFF;
     --button-secondary-color: #FFFFFF;
@@ -132,6 +132,10 @@ p {
     cursor: pointer;
 }
 
+.hero {
+    background-color: var(--section-one-background-color); 
+}
+
 .hero>button:hover,
 .hero>button:focus {
     background: var(--pressed-background-color);
@@ -150,18 +154,20 @@ h2 {
     
 }
 
-h3 {
+
+
+/* <!-- SCREEN 02 --> *//* <!-- SCREEN 02 --> */
+
+.li-section-two {
+    list-style: none;
+}
+
+.h3-section-two {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
-    
-}
-
-/* <!-- SCREEN 02 --> *//* <!-- SCREEN 02 --> */
-
-.screen-two {
-    background-color: var(-section-two-background-color);
+    color: var(--primary-text-color);
 }
 
 .feature-screen-two {
