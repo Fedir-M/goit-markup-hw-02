@@ -227,7 +227,6 @@ letter-spacing: 0.02em;
 
 .fields-title {
     color: var(--second-text-color);
-    font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -235,10 +234,9 @@ letter-spacing: 0.02em;
 }
 
 
-.fields-test {
+.fields-text {
     color: var(--main-text-color);
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
