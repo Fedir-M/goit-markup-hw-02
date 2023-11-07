@@ -32,6 +32,7 @@ body {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    background-color: var(--main-background-color);
 }
 
 
@@ -71,7 +72,7 @@ body {
     color: var(--main-text-color);
 }
 
-.address {
+.address-contasts {
     font-style: normal;
 }
 
@@ -90,6 +91,7 @@ body {
 .link:hover,
 .link:focus {
     color: var(--hover-button-color);
+    
 }
 
 .link:active {
@@ -124,6 +126,11 @@ body {
     cursor: pointer;
 }
 
+.hero-button:hover,
+.hero-button:focus {
+    background-color: var(--hover-button-color);
+}
+
 /* SCREEN 02 = SECTION 2 */
 
 .features-list {
@@ -151,27 +158,25 @@ letter-spacing: 0.02em;
 /* SCREEN 03 = SECTION 3 */
 
 .title-pictures {
-/* Header 2 */
-color: var(-second-text-color);
-font-size: 36px;
-line-height: 1.11;
-letter-spacing: 0.02em;
-text-transform: capitalize;
+    /* Header 2 */
+    color: var(--second-text-color);
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
 }
 
-.pictures {
-    list-style: none;
-}
 
 /* SCREEN 04 = SECTION 4 */
 
 .screen-four {
-    var(--third-background-color);
+    background-color: var(--third-background-color);
 
 }
 
 .team-item {
-    background-color: var(--main-background-color:);
+    background-color: var(--main-background-color);
 
 }
 
@@ -196,17 +201,17 @@ text-transform: capitalize;
 /* PORTFOLIO PAGE*//* PORTFOLIO PAGE*/
 
 .button-filter {
-color: var(--main-button-text);
-text-align: center;
-/* Button Text */
-font-family: Roboto, sans-serif;
-font-size: 16px;
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.04em;
-background-color: var(--initial-filter-color:);
+    color: var(--main-button-text);
+    text-align: center;
+    /* Button Text */
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: var(--initial-filter-color);
 
-cursor: pointer;
+    cursor: pointer;
 }
 
 .button-filter:hover,
